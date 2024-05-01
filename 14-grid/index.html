@@ -1,17 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="https://cdn.tailwindcss.com"></script>
-    <title>Grid</title>
-  </head>
-  <body>
-    <!-- Grid cols and rows -->
 
-    <!-- Col and row span -->
-  </body>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>Grid</title>
+</head>
+
+<body>
+  <!-- Grid cols and rows -->
+  <div class="md:grid grid-cols-3 gap-2 grid-rows-3 bg-slate-500">
+    <div class="p-10 border border-blue-600 bg-blue-100">1</div>
+    <div class="p-10 border border-blue-600 bg-blue-100">2</div>
+    <div class="p-10 border border-blue-600 bg-blue-100">3</div>
+    <div class="p-10 border border-blue-600 bg-blue-100">4</div>
+    <div class="p-10 border border-blue-600 bg-blue-100">5</div>
+    <div class="p-10 border border-blue-600 bg-blue-100">6</div>
+    <div class="p-10 border border-blue-600 bg-blue-100">7</div>
+    <div class="p-10 border border-blue-600 bg-blue-100">8</div>
+    <div class="p-10 border border-blue-600 bg-blue-100">9</div>
+    <div class="p-10 border border-blue-600 bg-blue-100">10</div>
+  </div>
+
+  <!-- Col and row span -->
+  <div class="md:grid grid-cols-3 gap-2 grid-rows-3 bg-slate-500">
+    <div class="col-span-2 p-10 border border-blue-600 bg-blue-100">1</div>
+    <div class="p-10 border border-blue-600 bg-blue-100">2</div>
+    <div class="p-10 border border-blue-600 bg-blue-100">3</div>
+    <div class="p-10 border border-blue-600 bg-blue-100">4</div>
+    <div class="p-10 border border-blue-600 bg-blue-100">5</div>
+    <div class="p-10 border border-blue-600 bg-blue-100">6</div>
+    <div class="p-10 border border-blue-600 bg-blue-100">7</div>
+    <div class="row-span-2  p-10 border border-blue-600 bg-blue-100">8</div>
+    <div class="p-10 border border-blue-600 bg-blue-100">9</div>
+    <div class="col-span-4  p-10 border border-blue-600 bg-blue-100">10</div>
+  </div>
+</body>
+
 </html>
 
 <!-- 
